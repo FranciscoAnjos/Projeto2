@@ -10,7 +10,9 @@ namespace CraftingSim.Model
     public int GetQuantity()
     {
       if (Material.Name==Material.Name)
-         Material.quantity++,
+         Material.quantity++;
+      else if (Material.id==Material.id)
+         Material.quantity++;
     }
    }
 

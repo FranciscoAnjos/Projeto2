@@ -41,6 +41,7 @@ namespace CraftingSim.Model
                 Material.quantity[1];
 
             }
+            sr.Close()
 
             StreamReader sr = new file("Projeto2\LeatherBoots.txt")
             line =sr.ReadLine();
@@ -52,6 +53,7 @@ namespace CraftingSim.Model
                 RecipeList.material[0];
                 Material.quantity[1];
             }
+            sr.Close()
 
         }
 
