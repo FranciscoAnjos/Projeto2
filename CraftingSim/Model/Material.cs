@@ -6,6 +6,12 @@ namespace CraftingSim.Model
    {
     public int id()
     public string Name()
+
+    public int GetQuantity()
+    {
+      if (Material.Name==Material.Name)
+         Material.quantity++,
+    }
    }
 
 }

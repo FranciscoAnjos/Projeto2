@@ -38,7 +38,7 @@ namespace CraftingSim.Model
         /// <param name="quantity">The new amount to set</param>
         public void AddMaterial(IMaterial material, int quantity)
         {
-            //TODO Implement Me
+            material.quantity + quantity;
         }
 
         /// <summary>
@@ -88,7 +88,21 @@ namespace CraftingSim.Model
         /// <param name="file">Path to the materials file</param>
         public void LoadMaterialsFromFile(string file)
         {
-            //TODO Implement Me
+            
+            StreamReader sr = new file("Projeto2\materials.txt")
+            line =sr.ReadLine();
+            line[0] = Material.id
+            line[1] = Materials.Name
+            line[2] = Materials.quantity
+            while (line != null)
+            {
+                line =sr.ReadLine()
+                new.material = material
+                line[0] = Material.id
+                line[1] = Materials.Name
+                line[2] = Materials.quantity
+            }   
+
         }
     }
 }

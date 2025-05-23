@@ -33,13 +33,26 @@ namespace CraftingSim.Model
         {
             StreamReader sr = new file("Projeto2\IronSword.txt")
             line =sr.ReadLine();
-            
+            Recipe.Name[0];
             while (line != null)
             {
                 line = sr.ReadLine();
+                RecipeList.material[0];
+                Material.quantity[1];
 
             }
-            
+
+            StreamReader sr = new file("Projeto2\LeatherBoots.txt")
+            line =sr.ReadLine();
+            Recipe.Name[0];
+            RecipeList.SuccessRate[1];
+            while (line != null)
+            {
+                line = sr.ReadLine();
+                RecipeList.material[0];
+                Material.quantity[1];
+            }
+
         }
 
         /// <summary>
