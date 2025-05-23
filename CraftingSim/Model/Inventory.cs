@@ -50,8 +50,12 @@ namespace CraftingSim.Model
         /// <returns>True if removed successfuly, false if not enough material</returns>
         public bool RemoveMaterial(IMaterial material, int quantity)
         {
-            // TODO Implement Me
-            return false;
+
+            if (quantity>material.quantity)
+                return false;
+            else
+                material.quantity-quantity;
+                return true;
         }
 
         /// <summary>

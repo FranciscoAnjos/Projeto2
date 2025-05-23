@@ -31,7 +31,15 @@ namespace CraftingSim.Model
         /// <param name="recipeFiles">Array of file paths</param>
         public void LoadRecipesFromFile(string[] recipeFiles)
         {
-            //TODO Implement Me
+            StreamReader sr = new file("Projeto2\IronSword.txt")
+            line =sr.ReadLine();
+            
+            while (line != null)
+            {
+                line = sr.ReadLine();
+
+            }
+            
         }
 
         /// <summary>
